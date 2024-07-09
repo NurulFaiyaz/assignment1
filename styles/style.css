@@ -1,0 +1,37 @@
+
+/* universal items */
+*{ 
+    color: #0D1321;
+    font-family: monospace;
+    
+}
+
+/* Navigation bag */
+
+.navi{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 80px 0 80px;
+    text-align: center;
+  
+}
+.nav-heading{
+    font-size: 28px;
+    font-weight: 800;
+}
+
+/* nav button */
+
+.nav-btn{
+    font-size: 20px;
+    border-radius: 16px;
+    background: transparent;
+    font-weight: 600;
+    border: solid 1px;
+    padding: 10px 30px;
+    list-style-type: none;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+}
