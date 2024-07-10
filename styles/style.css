@@ -149,3 +149,36 @@ nav>ul>li>a{
     text-align: center;
 }
 
+/* section 3 */
+
+.sec3{
+    margin: 70px 150px 0 150px;
+    /* padding-left: 200px;
+    padding-right: 130px; */
+    color: #0D1321;
+}
+
+.insp-text{
+    margin: 0 150px 0 150px;
+
+}
+.insp-text>h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 35px;
+
+}
+.insp-text>h4{
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 70%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.insp-video{
+    border: solid 1px #0D1321;
+    border-radius: 16px;
+    padding: 50px;
+    margin-bottom: 100px;
+}
