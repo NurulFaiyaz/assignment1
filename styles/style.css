@@ -5,6 +5,10 @@
     font-family: monospace;
     
 }
+main{
+    font-family: monospace;
+
+}
 
 /* Navigation bag */
 
@@ -30,8 +34,118 @@
     border: solid 1px;
     padding: 10px 30px;
     list-style-type: none;
+    opacity: 70%;
 }
 
 nav>ul>li>a{
     text-decoration: none;
 }
+
+/* banner section */
+
+.bnr-sec{
+    background-image: url(../assets/Hero-bg.png);
+    height: 630px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bnr-info{
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
+.bnr-profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bnr-title{
+    font-size: 48px;
+    font-weight: 900;
+   text-align: center;
+}
+
+.bnr-description{
+    font-size: 16px;
+    opacity: 70%;
+    text-align: center;
+}
+
+.bnr-btn{ 
+    background-color: black;
+    font-size: 18px;
+    border-radius: 6px;
+    border: solid 1px;
+    padding: 17px 21px;
+    list-style-type: none;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+.bnr-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+/* section 2 */
+
+.sec2{
+    margin-top: 50px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 50px;
+    color: #0D1321;
+}
+
+.sec-items{
+    background-color: #cfd0d3;
+    padding: 80px 100px;
+    border-radius: 18px;
+   
+}
+.section2-title{
+    text-align: center;
+   
+   
+}
+.section2-title>h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.section2-title>h3{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.content1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content1 h2{
+    font-size: 28px;
+    font-weight: 900px;
+    line-height: 34px;
+}
+.content1 h4{
+    font-size: 20px;
+    line-height: 26px;
+}
+.content1 li a{
+    text-decoration: none;
+}
+.sec1-btn1{
+    font-size: 25px;
+    background: transparent;
+    border: solid 1px;
+    padding: 10px 15px;
+    list-style-type: none;
+    margin-right: 70%;
+    text-align: center;
+}
+
